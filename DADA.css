@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 1300px;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+}
+.header{
+  background: rgb(255,229,180);
+  background: linear-gradient(90deg, rgba(255,229,180,1) 0%, rgba(252,252,252,1) 100%, rgba(201,187,187,1) 100%);
+}
+.navbar{
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+}
+.img1{
+  border-radius: 110px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 50px;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+.mid-header{
+  height:300px;
+  max-width: 1300px;
+  margin: auto;
+}
+.input{
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 20%%;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+button{
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: white;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0px;
+  border-radius: 30px;
+  position: relative;
+  bottom: 100px;
+  left: 650px;
+}
+.body{
+  height: 450px;
+  max-width: 1300px;
+  margin: auto;
+}
+.heading{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.heading::after{
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.menu{
+  width:100%;
+}
+.contact{
+  background-image: url(img1.jfif);
+  height: 900px;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  background-size: 100%;
+  margin: auto;
+}
+.paragraph{
+  height: 800px;
+  display: flex;
+  flex-basis: 50%;
+}
+.sub-paragraph{
+  flex-basis: 50%;
+  text-align: center;
+}
+#contact{
+  color: white;
+}
+.sub-paragraph h3{
+  color: white;
+}
+.sub-paragraph p{
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .btn {
+    left: 200px;
+  }
+  .logo img{
+    width: 62px;
+  }
+}
